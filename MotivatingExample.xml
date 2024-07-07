@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extendedFeatureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendposition" value="837,72"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="Motivating_Example">
+			<alt mandatory="true" name="MC_PITCHRATE_K">
+				<feature name="0.505"/>
+				<feature name="1"/>
+				<feature name="3"/>
+			</alt>
+			<alt mandatory="true" name="MC_PITCHRATE_MAX">
+				<graphics key="collapsed" value="false"/>
+				<feature name="110"/>
+				<feature name="1800"/>
+				<feature name="220"/>
+			</alt>
+			<alt mandatory="true" name="MC_PITCHRATE_P">
+				<feature name="0.03"/>
+				<feature name="0.08"/>
+				<feature name="0.15"/>
+			</alt>
+			<alt mandatory="true" name="MC_ROLLRATE_P">
+				<feature name="_0.08"/>
+				<feature name="_0.15"/>
+				<feature name="0.5"/>
+			</alt>
+			<alt mandatory="true" name="MC_ROLL_P">
+				<feature name="0.1"/>
+				<feature name="12"/>
+				<feature name="6.5"/>
+			</alt>
+		</and>
+	</struct>
+</extendedFeatureModel>
