@@ -2,6 +2,10 @@
 
 Each file is described below. 
 
+## feature_model_values.csv
+
+This is the complete list of values for all parameters in our full feature model from RQ1 and RQ2.
+
 ## 1-hop_complete.csv
 
 This is the complete set of one-hop tests discussed in RQ1, including the configuration information as well as the mission and takeoff outcomes. 
