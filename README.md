@@ -5,6 +5,14 @@ Each file is described below.
 ## feature_model_values.csv
 
 This is the complete list of values for all parameters in our full feature model from RQ1 and RQ2.
+## large-model.xml
+This is the feature model from FeatureIDE with 50 features (5 values each) based on the file feature_model_values.csv
+
+## exhaustive_model.csv
+This is the list of values for the smaller feature model which we explored exhaustively (RQ3)
+
+## exhaustive_model.xml
+This is the FeabureIDE model for smaller feature model with 8 features and 3 values each
 
 ## 1-hop_complete.csv
 
