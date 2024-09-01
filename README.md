@@ -6,14 +6,14 @@ Each file is described in the readme below.
 ## Referencing this work
 To reference this work please use the following paper:
 
-@inproceedings{purandare:splc24,
-author = {Purandare, Salil and Cohen, Myra B.},
-title = {Exploration of Failures in an sUAS Controller Software Product Line},
-year = {2024},
-doi = {10.1145/3646548.3672597},
-booktitle = {Proceedings of the 28th ACM International Systems and Software Product Line Conference},
-pages = {125–135},
-series = {SPLC '24}
+@inproceedings{purandare:splc24,\
+author = {Purandare, Salil and Cohen, Myra B.},\
+title = {Exploration of Failures in an sUAS Controller Software Product Line},\
+year = {2024},\
+doi = {10.1145/3646548.3672597},\
+booktitle = {Proceedings of the 28th ACM International Systems and Software Product Line Conference},\
+pages = {125–135},\
+series = {SPLC '24}\
 }
 
 ## Paper link:  
