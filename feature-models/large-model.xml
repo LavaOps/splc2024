@@ -11,8 +11,9 @@
 		<graphics key="layoutalgorithm" value="1"/>
 	</properties>
 	<struct>
-		<alt mandatory="true" name="Controller">
-			<alt name="MC_PITCHRATE_P">
+		<and mandatory="true" name="Controller">
+			<graphics key="collapsed" value="false"/>
+			<alt mandatory="true" name="MC_PITCHRATE_P">
 				<graphics key="collapsed" value="false"/>
 				<feature name="F1_0_01"/>
 				<feature name="F1_0_0_8"/>
@@ -20,7 +21,7 @@
 				<feature name="F1_0_38"/>
 				<feature name="F1_0_60"/>
 			</alt>
-			<alt name="MC_PITCH_P">
+			<alt mandatory="true" name="MC_PITCH_P">
 				<graphics key="collapsed" value="false"/>
 				<feature name="F2_0"/>
 				<feature name="F2_3_3"/>
@@ -28,390 +29,390 @@
 				<feature name="F2_9_3"/>
 				<feature name="F2_12"/>
 			</alt>
-			<alt name="MC_ROLLRATE_P">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_ROLLRATE_P">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F3_0_01"/>
 				<feature name="F3_0_0_8"/>
 				<feature name="F3_0_15"/>
 				<feature name="F3_0_33"/>
 				<feature name="F3_0_50"/>
 			</alt>
-			<alt name="MC_ROLL_P">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_ROLL_P">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F4_0"/>
 				<feature name="F4_3_3"/>
 				<feature name="F4_6_5"/>
 				<feature name="F4_9_3"/>
 				<feature name="F4_12"/>
 			</alt>
-			<alt name="MC_PITCHRATE_D">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_PITCHRATE_D">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F5_0"/>
 				<feature name="F5_0_0015"/>
 				<feature name="F5_0_003"/>
 				<feature name="F5_0_01"/>
 				<feature name="F5_12"/>
 			</alt>
-			<alt name="MC_PITCHRATE_I">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_PITCHRATE_I">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F6_0"/>
 				<feature name="F6_0_1"/>
 				<feature name="F6_0_2"/>
 				<feature name="F6_0_6"/>
 				<feature name="F6_12"/>
 			</alt>
-			<alt name="MC_PITCHRATE_K">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_PITCHRATE_K">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F7_0_01"/>
 				<feature name="F7_0_505"/>
 				<feature name="F7_1"/>
 				<feature name="F7_3"/>
 				<feature name="F7_5"/>
 			</alt>
-			<alt name="MC_ROLLRATE_D">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_ROLLRATE_D">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F8_0"/>
 				<feature name="F8_0_0015"/>
 				<feature name="F8_0_003"/>
 				<feature name="F8_0_0065"/>
 				<feature name="F8_0_01"/>
 			</alt>
-			<alt name="MC_ROLLRATE_I">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_ROLLRATE_I">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F9_0"/>
 				<feature name="F9_0_1"/>
 				<feature name="F9_0_2"/>
 				<feature name="F9_0_6"/>
 				<feature name="F9_12"/>
 			</alt>
-			<alt name="MC_ROLLRATE_K">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_ROLLRATE_K">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F10_0_01"/>
 				<feature name="F10_0_505"/>
 				<feature name="F10_1"/>
 				<feature name="F10_3"/>
 				<feature name="F10_5"/>
 			</alt>
-			<alt name="MC_PITCHRATE_MAX">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_PITCHRATE_MAX">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F11_0"/>
 				<feature name="F11_110"/>
 				<feature name="F11_220"/>
 				<feature name="F11_1010"/>
 				<feature name="F11_1800"/>
 			</alt>
-			<alt name="MPC_THR_MAX">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_THR_MAX">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F12_0"/>
 				<feature name="F12_0_25"/>
 				<feature name="F12_0_5"/>
 				<feature name="F12_0_75"/>
 				<feature name="F12_1"/>
 			</alt>
-			<alt name="MPC_THR_MIN">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_THR_MIN">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F13_0_05"/>
 				<feature name="F13_0_085"/>
 				<feature name="F13_0_12"/>
 				<feature name="F13_0_56"/>
 				<feature name="F13_1"/>
 			</alt>
-			<alt name="MC_YAWRATE_P">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_YAWRATE_P">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F14_0"/>
 				<feature name="F14_0_1"/>
 				<feature name="F14_0_2"/>
 				<feature name="F14_0_4"/>
 				<feature name="F14_0_6"/>
 			</alt>
-			<alt name="MC_YAWRATE_I">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_YAWRATE_I">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F15_0"/>
 				<feature name="F15_0_1"/>
 				<feature name="F15_0_2"/>
 				<feature name="F15_0_4"/>
 				<feature name="F15_0_6"/>
 			</alt>
-			<alt name="MC_YAWRATE_D">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_YAWRATE_D">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F16_0"/>
 				<feature name="F16_0_1"/>
 				<feature name="F16_0_2"/>
 				<feature name="F16_0_4"/>
 				<feature name="F16_0_6"/>
 			</alt>
-			<alt name="MC_YAWRATE_K">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_YAWRATE_K">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F17_0"/>
 				<feature name="F17_0_5"/>
 				<feature name="F17_1"/>
 				<feature name="F17_3"/>
 				<feature name="F17_5"/>
 			</alt>
-			<alt name="COM_ARM_IMU_ACC">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="COM_ARM_IMU_ACC">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F18_0_1"/>
 				<feature name="F18_0_4"/>
 				<feature name="F18_0_7"/>
 				<feature name="F18_0_85"/>
 				<feature name="F18_1"/>
 			</alt>
-			<alt name="COM_ARM_IMU_GYR">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="COM_ARM_IMU_GYR">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F19_0_02"/>
 				<feature name="F19_0_135"/>
 				<feature name="F19_0_25"/>
 				<feature name="F19_0_275"/>
 				<feature name="F19_0_3"/>
 			</alt>
-			<alt name="MC_PITCHRATE_FF">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_PITCHRATE_FF">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F20_0"/>
 				<feature name="F20_0_0015"/>
 				<feature name="F20_0_003"/>
 				<feature name="F20_0_01"/>
 				<feature name="F20_12"/>
 			</alt>
-			<alt name="MC_ROLLRATE_FF">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_ROLLRATE_FF">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F21_0"/>
 				<feature name="F21_0_0015"/>
 				<feature name="F21_0_003"/>
 				<feature name="F21_0_0065"/>
 				<feature name="F21_0_01"/>
 			</alt>
-			<alt name="MC_ROLLRATE_MAX">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_ROLLRATE_MAX">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F22_0"/>
 				<feature name="F22_110"/>
 				<feature name="F22_220"/>
 				<feature name="F22_1010"/>
 				<feature name="F22_1800"/>
 			</alt>
-			<alt name="MC_YAWRATE_FF">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_YAWRATE_FF">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F23_0"/>
 				<feature name="F23_0_1"/>
 				<feature name="F23_0_2"/>
 				<feature name="F23_0_4"/>
 				<feature name="F23_0_6"/>
 			</alt>
-			<alt name="MC_YAW_P">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_YAW_P">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F24_0"/>
 				<feature name="F24_1_4"/>
 				<feature name="F24_2_8"/>
 				<feature name="F24_3_9"/>
 				<feature name="F24_5"/>
 			</alt>
-			<alt name="MIS_YAW_ERR">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MIS_YAW_ERR">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F25_0"/>
 				<feature name="F25_6"/>
 				<feature name="F25_12"/>
 				<feature name="F25_39"/>
 				<feature name="F25_90"/>
 			</alt>
-			<alt name="MPC_TILTMAX_AIR">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_TILTMAX_AIR">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F26_20"/>
 				<feature name="F26_32_5"/>
 				<feature name="F26_45"/>
 				<feature name="F26_67"/>
 				<feature name="F26_89"/>
 			</alt>
-			<alt name="MPC_XY_P">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_XY_P">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F27_0"/>
 				<feature name="F27_0_475"/>
 				<feature name="F27_0_95"/>
 				<feature name="F27_1_475"/>
 				<feature name="F27_2"/>
 			</alt>
-			<alt name="MPC_XY_VEL_MAX">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_XY_VEL_MAX">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F28_0"/>
 				<feature name="F28_6"/>
 				<feature name="F28_12"/>
 				<feature name="F28_16"/>
 				<feature name="F28_20"/>
 			</alt>
-			<alt name="MPC_Z_P">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_Z_P">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F29_0"/>
 				<feature name="F29_0_5"/>
 				<feature name="F29_1"/>
 				<feature name="F29_1_25"/>
 				<feature name="F29_1_5"/>
 			</alt>
-			<alt name="COM_POS_FS_EPH">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="COM_POS_FS_EPH">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F30_0"/>
 				<feature name="F30_3"/>
 				<feature name="F30_5"/>
 				<feature name="F30_7"/>
 				<feature name="F30_10"/>
 			</alt>
-			<alt name="EKF2_ABL_LIM">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="EKF2_ABL_LIM">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F31_0"/>
 				<feature name="F31_0_2"/>
 				<feature name="F31_0_4"/>
 				<feature name="F31_0_6"/>
 				<feature name="F31_0_8"/>
 			</alt>
-			<alt name="MOT_SLEW_MAX">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MOT_SLEW_MAX">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F32_0"/>
 				<feature name="F32_1"/>
 				<feature name="F32_2"/>
 				<feature name="F32_3"/>
 				<feature name="F32_4"/>
 			</alt>
-			<alt name="COM_VEL_FS_EVH">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="COM_VEL_FS_EVH">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F33_1"/>
 				<feature name="F33_2"/>
 				<feature name="F33_3"/>
 				<feature name="F33_4"/>
 				<feature name="F33_5"/>
 			</alt>
-			<alt name="MC_PR_INT_LIM">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_PR_INT_LIM">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F34_0"/>
 				<feature name="F34_0_15"/>
 				<feature name="F34_0_3"/>
 				<feature name="F34_0_45"/>
 				<feature name="F34_0_6"/>
 			</alt>
-			<alt name="MPC_ACC_HOR">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_ACC_HOR">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F35_2"/>
 				<feature name="F35_2_5"/>
 				<feature name="F35_3"/>
 				<feature name="F35_9"/>
 				<feature name="F35_15"/>
 			</alt>
-			<alt name="MPC_ACC_HOR_MAX">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_ACC_HOR_MAX">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F36_2"/>
 				<feature name="F36_3_5"/>
 				<feature name="F36_5"/>
 				<feature name="F36_10"/>
 				<feature name="F36_15"/>
 			</alt>
-			<alt name="MPC_XY_VEL_I_ACC">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_XY_VEL_I_ACC">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F37_0"/>
 				<feature name="F37_0_2"/>
 				<feature name="F37_0_4"/>
 				<feature name="F37_30_2"/>
 				<feature name="F37_60"/>
 			</alt>
-			<alt name="MPC_Z_VEL_D_ACC">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_Z_VEL_D_ACC">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F38_0"/>
 				<feature name="F38_0_5"/>
 				<feature name="F38_1"/>
 				<feature name="F38_1_5"/>
 				<feature name="F38_2"/>
 			</alt>
-			<alt name="MC_YAW_WEIGHT">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MC_YAW_WEIGHT">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F39_0"/>
 				<feature name="F39_0_2"/>
 				<feature name="F39_0_4"/>
 				<feature name="F39_0_7"/>
 				<feature name="F39_1"/>
 			</alt>
-			<alt name="MPC_Z_VEL_MAX_DN">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_Z_VEL_MAX_DN">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F40_0_5"/>
 				<feature name="F40_0_75"/>
 				<feature name="F40_1"/>
 				<feature name="F40_2_5"/>
 				<feature name="F40_4"/>
 			</alt>
-			<alt name="MPC_Z_VEL_MAX_UP">
-				<graphics key="collapsed" value="true"/>
-				<feature name="F41_0_5"/>
-				<feature name="F41_1_75"/>
-				<feature name="F41_3"/>
-				<feature name="F41_5_5"/>
-				<feature name="F41_8"/>
-			</alt>
-			<alt name="MPC_TKO_SPEED">
-				<graphics key="collapsed" value="true"/>
-				<feature name="F42_1"/>
-				<feature name="F42_1_25"/>
-				<feature name="F42_1_5"/>
-				<feature name="F42_3_25"/>
-				<feature name="F42_5"/>
-			</alt>
-			<alt name="MPC_XY_VEL_P_ACC">
-				<graphics key="collapsed" value="true"/>
-				<feature name="F43_1_2"/>
-				<feature name="F43_1_5"/>
-				<feature name="F43_1_8"/>
-				<feature name="F43_3_4"/>
-				<feature name="F43_5"/>
-			</alt>
-			<alt name="MPC_Z_VEL_P_ACC">
-				<graphics key="collapsed" value="true"/>
-				<feature name="F44_2"/>
-				<feature name="F44_3"/>
-				<feature name="F44_4"/>
-				<feature name="F44_9_5"/>
-				<feature name="F44_15"/>
-			</alt>
-			<alt name="MPC_XY_CRUISE">
-				<graphics key="collapsed" value="true"/>
-				<feature name="F45_3"/>
-				<feature name="F45_4"/>
-				<feature name="F45_5"/>
-				<feature name="F45_12_5"/>
-				<feature name="F45_20"/>
-			</alt>
-			<alt name="MPC_LAND_SPEED">
-				<graphics key="collapsed" value="true"/>
-				<feature name="F46_0_6"/>
-				<feature name="F46_0_65"/>
-				<feature name="F46_0_7"/>
-				<feature name="F46_4_35"/>
-				<feature name="F46_8"/>
-			</alt>
-			<alt name="MPC_ACC_UP_MAX">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_ACC_UP_MAX">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F47_2"/>
 				<feature name="F47_3"/>
 				<feature name="F47_4"/>
 				<feature name="F47_9_5"/>
 				<feature name="F47_15"/>
 			</alt>
-			<alt name="MPC_JERK_AUTO">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_Z_VEL_MAX_UP">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F41_0_5"/>
+				<feature name="F41_1_75"/>
+				<feature name="F41_3"/>
+				<feature name="F41_5_5"/>
+				<feature name="F41_8"/>
+			</alt>
+			<alt mandatory="true" name="MPC_TKO_SPEED">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F42_1"/>
+				<feature name="F42_1_25"/>
+				<feature name="F42_1_5"/>
+				<feature name="F42_3_25"/>
+				<feature name="F42_5"/>
+			</alt>
+			<alt mandatory="true" name="MPC_LAND_SPEED">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F46_0_6"/>
+				<feature name="F46_0_65"/>
+				<feature name="F46_0_7"/>
+				<feature name="F46_4_35"/>
+				<feature name="F46_8"/>
+			</alt>
+			<alt mandatory="true" name="MPC_XY_VEL_P_ACC">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F43_1_2"/>
+				<feature name="F43_1_5"/>
+				<feature name="F43_1_8"/>
+				<feature name="F43_3_4"/>
+				<feature name="F43_5"/>
+			</alt>
+			<alt mandatory="true" name="MPC_Z_VEL_P_ACC">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F44_2"/>
+				<feature name="F44_3"/>
+				<feature name="F44_4"/>
+				<feature name="F44_9_5"/>
+				<feature name="F44_15"/>
+			</alt>
+			<alt mandatory="true" name="MPC_XY_CRUISE">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F45_3"/>
+				<feature name="F45_4"/>
+				<feature name="F45_5"/>
+				<feature name="F45_12_5"/>
+				<feature name="F45_20"/>
+			</alt>
+			<alt mandatory="true" name="MPC_JERK_AUTO">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F48_1"/>
 				<feature name="F48_2_5"/>
 				<feature name="F48_4"/>
 				<feature name="F48_42"/>
 				<feature name="F48_80"/>
 			</alt>
-			<alt name="MPC_JERK_MAX">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_JERK_MAX">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F49_0_5"/>
 				<feature name="F49_4_25"/>
 				<feature name="F49_8"/>
 				<feature name="F49_254"/>
 				<feature name="F49_500"/>
 			</alt>
-			<alt name="MPC_TILTMAX_LND">
-				<graphics key="collapsed" value="true"/>
+			<alt mandatory="true" name="MPC_TILTMAX_LND">
+				<graphics key="collapsed" value="false"/>
 				<feature name="F50_10"/>
 				<feature name="F50_11"/>
 				<feature name="F50_12"/>
 				<feature name="F50_50_5"/>
 				<feature name="F50_89"/>
 			</alt>
-		</alt>
+		</and>
 	</struct>
 </featureModel>

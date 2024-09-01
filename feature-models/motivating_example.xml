@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="PITCHandROLL">
+			<graphics key="collapsed" value="false"/>
+			<alt mandatory="true" name="MC_PITCHRATE_K">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F1_0_505"/>
+				<feature name="F1_1"/>
+				<feature name="F1_3"/>
+			</alt>
+			<alt mandatory="true" name="MC_PITCHRATE_MAX">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F2_110"/>
+				<feature name="F1_1800"/>
+				<feature name="F2_220"/>
+			</alt>
+			<alt mandatory="true" name="MC_PITCHARE_P">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F3_0_03"/>
+				<feature name="F3_0_08"/>
+				<feature name="F3_0_15"/>
+			</alt>
+			<alt mandatory="true" name="MC_ROLRATE_P">
+				<graphics key="collapsed" value="false"/>
+				<feature name="F4_0_08"/>
+				<feature name="F4_0_15"/>
+				<feature name="F4_0_5"/>
+			</alt>
+			<alt mandatory="true" name="MC_ROLL_P">
+				<feature name="F5_0_1"/>
+				<feature name="F5_12"/>
+				<feature name="F5_6_5"/>
+			</alt>
+		</and>
+	</struct>
+</featureModel>
