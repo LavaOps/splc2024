@@ -85,3 +85,6 @@ In our motivating example, we described a series of negative and positive intera
 ## motivating_example.xml
 
 (found in the feature_model directory) This is the XML file for the feature model presented in the Motivating Example section. 
+
+## Acknowledgement
+This work was funded in part by the National Aeronautics and Space Administration Grant 80NSSC21M0185 and the National Science Foundation Grants CCF-1909688 and CNS-2234908. We thank the anonymous reviewers for their useful comments. Disclaimer: "Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Aeronautics and Space Administration or the National Science Foundation." 
