@@ -82,6 +82,6 @@ In our motivating example, we described a series of negative and positive intera
 
 [Motivating Example: Positive Interaction](https://review.px4.io/plot_app?log=3c8ac916-5cf8-45e8-9c35-bc1736d7a0bc "positive")
 
-## Motivating_Example.xml
+## motivating_example.xml
 
 (found in the feature_model directory) This is the XML file for the feature model presented in the Motivating Example section. 
